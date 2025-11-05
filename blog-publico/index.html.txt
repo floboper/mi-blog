@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog de Fernando</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Blog de Fernando</h1>
+    <nav>
+      <ul>
+        <li><a href="#entrada1">Entrada 1 HTML5</a></li>
+        <li><a href="#entrada2">Entrada 2 CSS3</a></li>
+        <li><a href="#entrada3">Entrada 3 JavaScript</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <article id="entrada1">
+      <h2>¿Qué es HTML5?</h2>
+      <p>HTML5 es el lenguaje de marcado estándar para crear páginas web. Introduce etiquetas semánticas como <code>&lt;article&gt;</code>, <code>&lt;section&gt;</code> y <code>&lt;nav&gt;</code>.</p>
+    </article>
+
+    <article id="entrada2">
+      <h2>CSS3: Estilos modernos</h2>
+      <p>CSS3 permite aplicar estilos avanzados como sombras, transiciones, animaciones y diseño responsivo. Es clave para la apariencia visual de la web.</p>
+    </article>
+
+    <article id="entrada3">
+      <h2>JavaScript: Interactividad</h2>
+      <p>JavaScript permite que la web responda a eventos, modifique el contenido dinámicamente y cree experiencias interactivas.</p>
+      <button id="mostrarMensaje">Haz clic aquí</button>
+      <p id="mensaje"></p>
+    </article>
+  </main>
+
+  <footer>
+    <p>© 2025 Fernando</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
